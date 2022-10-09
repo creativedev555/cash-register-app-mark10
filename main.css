@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --primary-color: #8655f6;
+    --oof-white: #f4f4f5;
+    --dark-zinc: #71717a;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px auto;
+    /* max-width: 85%;
+    width: 100%; */
+    background-color: var(--primary-color);
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    text-align: center;
+    margin: 4rem auto 7rem;
+}
+
+.heading {
+    color: #f4f4f5;
+}
+
+.description {
+    font-size: large;
+    margin: 1rem;
+    color: #f4f4f5;
+}
+
+.input-label{
+    margin: .5rem;
+    display: block;
+  font-size: large;
+  font-weight: 600;
+  color: #f4f4f5;
+}
+
+
+
+.input {
+    font-size: 14px;
+    outline: white;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 4px solid  #666666;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+    align-self: center;
+    
+  }
+
+  #check-button {
+    background: #666666;
+    border: 4px solid white;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+  }
+
+  #error-message {
+    display: block;
+    font-size: larger;
+    margin: 1rem 0 0;
+    color: #f4f4f5;
+  }
+
+  .change-table {
+    width: 80%;
+    text-align: justify;
+    border-collapse: separate;
+    margin: auto;
+    color: #f4f4f5;
+    border: 2px solid white;
+  }
+  
+  .change-table caption {
+    margin: 1rem auto;
+    font-size: x-large;
+    font-weight: 500;
+    color: #f4f4f5;
+  }
+
+  th,
+td {
+  border: 2px solid white;
+  width: 0%;
+  border-collapse: separate;
+  padding: 0.4rem;
+}
